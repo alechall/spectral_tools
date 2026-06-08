@@ -31,8 +31,7 @@ files, and converts them into notated MusicXML scores. The converter handles:
 - Quantizing rhythmic timing to a selectable grid
 - Filtering partials by amplitude and frequency range
 - Inferring subharmonic foundation tones for keyboard notation
-- Producing clean MusicXML that imports directly into Dorico, Finale, or
-  MuseScore
+- Producing clean MusicXML that imports directly into Dorico or MuseScore
 
 ## Dependencies
 
@@ -156,7 +155,7 @@ a "piano-friendly" approximation side by side.
 
 1. Export partials from **Partiels** as JSON
 2. Run `python3 interactive_converter.py` and follow the prompts
-3. Import the resulting `.musicxml` into Dorico / Finale / MuseScore
+3. Import the resulting `.musicxml` into Dorico / MuseScore
 4. Use the melodic transformer (`melodic_transformer.py`) to develop the
    extracted melodies further
 

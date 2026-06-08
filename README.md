@@ -2,7 +2,7 @@
 
 Three Python scripts for working with spectral analysis data in a compositional
 context. They bridge the gap between spectral analysis applications (Partiels,
-SPEAR) and notation software (Dorico, Finale, MuseScore), providing the kind of
+SPEAR) and notation software (Dorico, MuseScore), providing the kind of
 spectral processing and transformation pipeline that was previously only
 available through IRCAM's AudioSculpt — which is no longer maintained or
 available.
@@ -126,7 +126,6 @@ file in 1TRC format). Both formats are supported as input.
                                     v
                               ┌───────────┐
                               │   Dorico  │
-                              │  Finale   │
                               │ MuseScore │
                               └───────────┘
 ```
